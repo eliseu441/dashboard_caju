@@ -3,6 +3,13 @@ main {
   grid-area: main;
   overflow-y: auto;
 }
+input{
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 30px;
+  border: #000000;
+  text-align: center;
+}
 #refeicao3 {
   background:linear-gradient(to bottom, #ffffff 5%, #fc9a1b 100%);
   border-radius: 20px;
@@ -192,6 +199,7 @@ main {
 #transf{
   height: 10px;
 }
+
 .card2 {
   display: flex;
   flex-direction: column;
@@ -206,6 +214,7 @@ main {
 }
 
 .card_inner2 {
+  display: inline-flexbox;
   font-family: Dongle;
   font-size: 40px;
 

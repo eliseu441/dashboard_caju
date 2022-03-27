@@ -53,10 +53,12 @@ const Refeicao = () => {
           <div className="target_transf6">
             <div className="card_inner2">
               <p className="text-primary-p" id="transf">SALDO A SER TRANSFERIDO </p>
+              
               <span className="font-bold text-title" >
-                <input placeholder="Digite o valor aqui" value={commentary} onChange={e => setCommentary(e.target.value)}></input>
+               
+                <input placeholder="Digite o valor aqui" id="inp" value={commentary} onChange={e => setCommentary(e.target.value)}></input>
+                
               </span>
-
             </div>
           </div>
         </div>

@@ -3,6 +3,13 @@ main {
   grid-area: main;
   overflow-y: auto;
 }
+input{
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 30px;
+  border: #000000;
+  text-align: center;
+}
 #refeicao6 {
   background:linear-gradient(to bottom, #ffffff 5%, #a025b1 100%);
   border-radius: 20px;
