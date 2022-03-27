@@ -12,7 +12,7 @@ const Sidebar = ({sidebarOpen, closeSidebar}) =>{
                         <h1> CAJUZIN </h1>
                     </div>
                     <i
-                    onClick={() => closeSidebar()}
+                    
                     id= "sidebaricon"
                     aria-hidden="true"
                     ></i>
@@ -24,23 +24,23 @@ const Sidebar = ({sidebarOpen, closeSidebar}) =>{
                         <h2>Enviar saldo de:</h2>
                         <div className="sidebar__link" >
                             <MdFastfood/>
-                            <Link to="/refeicao">Refeicao</Link>
+                            <Link to="/refeicao" onClick={() => closeSidebar()}>Refeicao</Link>
                         </div>
                         <div className="sidebar__link">
                             <MdDirectionsCar/>
-                            <Link to="/mobilidade">Mobilidade</Link>
+                            <Link to="/mobilidade" onClick={() => closeSidebar()}>Mobilidade</Link>
                         </div>
                         <div className="sidebar__link">
                             <MdOutlineBook/>
-                            <Link to="/cultura">Cultura</Link>
+                            <Link to="/cultura" onClick={() => closeSidebar()}>Cultura</Link>
                         </div>
                         <div className="sidebar__link">
                             <MdHealthAndSafety/>
-                            <Link to="/saude">Saude</Link>
+                            <Link to="/saude" onClick={() => closeSidebar()}>Saude</Link>
                         </div>
                         <div className="sidebar__link">
                             <MdOutlineMenuBook/>
-                            <Link to="/educacao">Educação</Link>
+                            <Link to="/educacao" onClick={() => closeSidebar()}>Educação</Link>
                         </div>
                         <h2>PESSOAS</h2>
                         <div className="sidebar__link">
