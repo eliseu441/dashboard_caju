@@ -4,41 +4,66 @@ main {
     overflow-y: auto;
   }
   #refeicao {
-    background: url("../../assets/foood.png")no-repeat;
-    background-size: cover ;
+    background: url("https://assets-global.website-files.com/5fffa2700bacfcc7bca42ea2/6008feffe6924cbf049a7c07_i-refeicao.svg")no-repeat;
+    background-size: 25%;
+    background-position-x: 5%;
+    background-position-y: 20%;
+    background-color: #ff9100;
+    background-position: right;
+    border-radius: 15px;
     
   }
   #cultura {
-    background: url("../../assets/cultura.png")no-repeat;
-    background-size: cover ;
+    background: url("https://assets-global.website-files.com/5fffa2700bacfcc7bca42ea2/6008feffcd5a5885ac105a7a_i-cultura.svg")no-repeat;
+    background-size: 25%;
+    background-position-x: 5%;
+    background-position-y: 20%;
+    background-color: #25ac19;
+    background-position: right;
+    border-radius: 15px;
     
   }
   #mobilidade {
-    background: url("../../assets/carros.png")no-repeat;
-    background-size: cover ;
-    
+    background: url("https://assets-global.website-files.com/5fffa2700bacfcc7bca42ea2/6008feffe6924c030c9a7c06_i-mobilidade.svg")no-repeat;
+    background-size: 25%;
+    background-position-x: 5%;
+    background-position-y: 20%;
+    background-color: #b510c4;
+    background-position: right;
+    border-radius: 15px;
   }
   #educacao {
-    background: url("../../assets/livros.png")no-repeat;
-    background-size: cover ;
+    background: url("https://assets-global.website-files.com/5fffa2700bacfcc7bca42ea2/6008feff8a5747e861a30303_i-educacao.svg")no-repeat;
+    background-size: 25%;
+    background-position-x: 5%;
+    background-position-y: 20%;
+    background-color: #cc5747;
+    background-position: right;
+    border-radius: 15px;
+
+    
     
   }
   #saldolivre {
-    background: url("../../assets/saldolivre.png")no-repeat;
-    background-size: cover ;
+    background: url("https://assets-global.website-files.com/5fffa2700bacfcc7bca42ea2/6218cea212912246197accef_simbolocaju.svg")no-repeat;
+    background-size: 13%;
+    background-position-x: 95%;
+    background-position-y: 20%;
+    background-color: #36e995;
+    border-radius: 15px;
+    
     
   }
   #saude {
-    background: url("../../assets/saude.png")no-repeat;
-    background-size: cover ;
+    background: url("https://assets-global.website-files.com/5fffa2700bacfcc7bca42ea2/6008ff00d9b6221cc8b511af_i-saude.svg")no-repeat;
+    background-size: 25%;
+    background-position-x: 5%;
+    background-position-y: 20%;
+    background-color: #83b4f5;
+    background-position: right;
+    border-radius: 15px;
+
     
-  }
-  .saldos{
-      border-radius: 15px;
-      padding: 5px;
-      width: 100%;
-      height: 60%;
-      background-color: rgb(255, 255, 255, 0.65);
   }
   .main__container {
     padding: 20px 35px;
@@ -94,7 +119,7 @@ main {
   }
   
   .card_inner > span {
-      color: black;
+      color: rgb(255, 255, 255);
   }
   
   .charts {

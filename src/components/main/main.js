@@ -36,16 +36,14 @@ const Main = () => {
           <div className="card" id="refeicao">
             <div className="saldos">
               <div className="card_inner">
-                <p className="text-primary-p">Saldo em refeicao:</p>
-                <span className="font-bold text-title">{pessoas[0]?.refeicao}</span>
+                <span className="font-bold text-title">Saldo em refeicao: <br></br>R${pessoas[0]?.refeicao}</span>
               </div>
             </div>
           </div>
           <div className="card" id="mobilidade">
             <div className="saldos">
               <div className="card_inner">
-                <p className="text-primary-p">Saldo em mobilidade:</p>
-                <span className="font-bold text-title">{pessoas[0]?.mobilidade}</span>
+                <span className="text-primary-p">Saldo em mobilidade: <br></br>R${pessoas[0]?.mobilidade}</span>
               </div>
             </div>
           </div>
@@ -53,8 +51,7 @@ const Main = () => {
           <div className="card" id="cultura">
             <div className="saldos">
               <div className="card_inner">
-                <p className="text-primary-p" >Saldo em cultura:</p>
-                <span className="font-bold text-title">{pessoas[0]?.cultura}</span>
+                <span className="text-primary-p" >Saldo em cultura: <br></br>R${pessoas[0]?.cultura}</span>
               </div>
             </div>
           </div>
@@ -62,8 +59,7 @@ const Main = () => {
           <div className="card" id="saude">
             <div className="saldos">
               <div className="card_inner">
-                <p className="text-primary-p">Saldo em saude:</p>
-                <span className="font-bold text-title">{pessoas[0]?.saude}</span>
+                <span className="text-primary-p">Saldo em saude: <br></br>R${pessoas[0]?.saude}</span>
               </div>
             </div>
           </div>
@@ -71,8 +67,7 @@ const Main = () => {
           <div className="card" id="educacao">
             <div className="saldos">
               <div className="card_inner">
-                <p className="text-primary-p">Saldo em educacao:</p>
-                <span className="font-bold text-title">{pessoas[0]?.educacao}</span>
+                <span className="text-primary-p">Saldo em educacao: <br></br>R${pessoas[0]?.educacao}</span>
               </div>
             </div>
           </div>
@@ -80,8 +75,7 @@ const Main = () => {
           <div className="card" id="saldolivre">
             <div className="saldos">
               <div className="card_inner">
-                <p className="text-primary-p">Saldo livre:</p>
-                <span className="font-bold text-title">{pessoas[0]?.saldo_livre}</span>
+                <span className="text-primary-p">Saldo livre: <br></br>R${pessoas[0]?.saldo_livre}</span>
               </div>
             </div>
           </div>

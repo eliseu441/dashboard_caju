@@ -44,11 +44,9 @@ const Sidebar = ({sidebarOpen, closeSidebar}) =>{
                         </div>
                         <h2>PESSOAS</h2>
                         <div className="sidebar__link">
-                            <i className="fa fa-male"></i>
                             <a href="#">Admnins</a>
                         </div>
                         <div className="sidebar__link">
-                            <i className="fa fa-user-circle"></i>
                             <a href="#">Usuarios</a>
                         </div> 
                         <div className="sidebar__logout">
