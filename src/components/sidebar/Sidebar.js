@@ -19,7 +19,7 @@ const Sidebar = ({sidebarOpen, closeSidebar}) =>{
                 </div>
                 <div className="sidebar__menu">
                         <div className="sidebar__link active_menu_link" >
-                            <Link to="/">Home</Link>
+                            <Link to="/" onClick={() => closeSidebar()}>Home</Link>
                         </div>
                         <h2>Enviar saldo de:</h2>
                         <div className="sidebar__link" >

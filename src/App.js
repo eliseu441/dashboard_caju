@@ -1,5 +1,4 @@
 
-import './App.css';
 import {
   BrowserRouter ,
   Route,
@@ -10,10 +9,8 @@ import Cultura from './components/cultura/cultura';
 import Mobilidade from './components/mobilidade/mobilidade';
 import Saude from './components/saude/saude';
 import Educacao from './components/educacao/educacao';
-
 import{useState} from 'react'
 import Sidebar from './components/sidebar/Sidebar';
-// import './../../App.css';
 import Navbar from './components/navbar/navbar';
 import Main from './components/main/main';
 
