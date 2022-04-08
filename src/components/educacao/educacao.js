@@ -27,7 +27,9 @@ const Educacao = () => {
       origem: "educacao",
       saldoOrigem: Number(pessoas[0]?.educacao) - Number(valor),
       destino: destino,
-      saldoDestino: saldoNovo
+      saldoDestino: saldoNovo,
+      ultima_movimentacao: Number(valor),
+      ultima_coluna: destino
     });
     alert("Saldo transferido com sucesso!");
     console.log(response.data);
@@ -108,12 +110,12 @@ const Educacao = () => {
             </div>
 
             <div className="charts__right__cards">
-              <div className="cardt1">
-                <h1>saude</h1>
+            <div className="cardt1">
+                <h1>{pessoas[0]?.ultimas_nome}</h1>
               </div>
 
               <div className="cardt2">
-                <p><b>$124,200</b></p>
+                <p><b>R${pessoas[0]?.ultimas_movimentacoes},00</b></p>
               </div>
 
               <div className="cardt3">

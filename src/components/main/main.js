@@ -93,11 +93,11 @@ const Main = () => {
 
             <div className="charts__right__cards">
               <div className="cardt1">
-                <h1>saude</h1>
+                <h1>{pessoas[0]?.ultimas_nome}</h1>
               </div>
 
               <div className="cardt2">
-                <p><b>$124,200</b></p>
+                <p><b>R${pessoas[0]?.ultimas_movimentacoes},00</b></p>
               </div>
 
               <div className="cardt3">

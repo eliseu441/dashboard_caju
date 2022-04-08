@@ -17,10 +17,9 @@ app.get('/pessoas', (req, res) => {
 });
 
 app.put('/pessoas/:id', (req, res) => {
-  const {origem, saldoOrigem, destino, saldoDestino} = req.body
+  const {origem, saldoOrigem, destino, saldoDestino, ultima_movimentacao, ultima_coluna} = req.body
   const {id} = req.params
-
-  return connection.query(`UPDATE pessoas SET ${origem}=${saldoOrigem}, ${destino}=${saldoDestino}  WHERE id=${id}`, (err, result) => {
+  return connection.query(`UPDATE pessoas SET ${origem}=${saldoOrigem}, ${destino}=${saldoDestino}, ultimas_movimentacoes=${ultima_movimentacao}, ultimas_nome='${ultima_coluna}'   WHERE id=${id}`, (err, result) => {
     if (err) throw err;
     return res.json(result);
   });  
